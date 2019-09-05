@@ -15,15 +15,22 @@ class Student:
 		print("\n name is ",self.age)
 		print("\n name is ",self.marks)
 		
+	def accept(self):
+		self.name = input("\n enter name: ")
+		self.age = input("\n enter age: ")
+		self.marks = input("\n enter marks: ")
+		
  
 
-m = []
-name = input("\nenter name: ")
-age = input("\nenter age: ")
-m = input("\nenter marks: ")
 
-ob1 = Student(name,age,m)
-#ob2 = Student('',0,[])
+ob1 = Student('',0,[])
+ob2 = Student('',0,[])
+
+ob1.accept()
+ob1.display()
+ob2.accept()
+ob2.display()
+
 
 
 
