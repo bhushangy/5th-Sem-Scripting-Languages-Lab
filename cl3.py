@@ -1,24 +1,28 @@
 class Student:
-	name=''
-	age = 0
-	marks = []
+    name=''
+    age = 0
+    marks = []
 	
-	def __init__(self,name,age,marks):
-		self.name = name                                                                              
-		self.age = age
-		self.marks = marks
+    def __init__(self,name,age,marks):
+	    self.name = name                                                                              
+	    self.age = age
+	    self.marks = marks
 
 
 
-	def display(self):
-		print("\n name is ",self.name)
-		print("\n name is ",self.age)
-		print("\n name is ",self.marks)
+    def display(self):
+	    print("\n name is ",self.name)
+	    print("\n name is ",self.age)
+	    print("\n name is ",self.marks)
 		
-	def accept(self):
-		self.name = input("\n enter name: ")
-		self.age = input("\n enter age: ")
-		self.marks = input("\n enter marks: ")
+    def accept(self):
+	    self.name = input("\n enter name: ")
+	    self.age = input("\n enter age: ")
+	    for i in range(3):
+        	self.marks.append(int(input("\n enter sub1 :")))
+			
+		
+		
 		
  
 
