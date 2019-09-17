@@ -2,6 +2,7 @@ fhand = open('random.txt')
 x = fhand.read()
 #print(x)
 #print(len(x))
+#difference between open and read
 lis = []
 new_lis = []
 dic = {}
