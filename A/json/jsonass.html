@@ -10,7 +10,6 @@
 
 <script type="text/javascript">
 	
-
  var lis = [
 
  				{
@@ -31,23 +30,20 @@
 
 
      
- 		  var i;
- 	for(i in lis){
+ 		  var i,j,x;
+ 	for(i=0;i<lis.length;i++){
 
- 		document.write(lis[i].pname);
- 		<br>
-     	document.write(lis[i].dname);
-     	<br>
-     	document.write(lis[i].diseases);
-     	<br>
+ 		x = x +"pname : " + lis[i].pname +"<br>"+"dname : " + lis[i].dname + "<br>";
 
-
-
+     	for(j=0;j<lis[i].diseases.length;j++){
+			 
+			 x += "<li>"+ lis[i].diseases[j] + "</li>"+"<br>";
+		 }
  	}
      	
      	
 
-    
+    document.getElementById("res").innerHTML = x;
 
 
 
