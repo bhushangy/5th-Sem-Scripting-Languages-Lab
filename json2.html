@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Access an array value of json object </p>
+<p id="demo">
+</p>
+
+<script type="text/javascript">
+	var myob = {
+		"name":"jhon",
+		"age":30,
+		"cars":["ford","bmw","ferrari"],
+		"tv-series":{
+			"sacred games":"kashyap",
+			"breaking bad":["bryan","sky"]
+		}
+
+	}
+
+x = myob.cars[0];
+document.querySelector("#demo").innerHTML  = x;
+
+</script>
+
+</body>
+</html>

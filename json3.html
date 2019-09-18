@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+	var ob = {
+		"name":"jhon",
+		"age":30,
+		"cars":[
+					{
+						"name":"ford",
+						"models":["fiesta","mustang"]
+					},
+
+				   {
+						"name":"BMW",
+						"models":["320","XS","X3"]
+					},
+
+					{
+						"name":"fiat",
+						"models":["500","panda"]
+					}
+
+		       ]
+
+	}
+
+
+	var x = "";
+	for(i in ob.cars){
+		x += "<h2>" + ob.cars[i].name + "</h2";
+		for(j in ob.cars[i].models){
+			x += ob.cars[i].models[j] + "<br>";
+		}
+	}
+
+
+
+	document.querySelector("#result").innerHTML  = x;
+
+
+
+
+	</script>
+</head>
+<body>
+<p id="result"></p>
+
+
+</body>
+</html>
