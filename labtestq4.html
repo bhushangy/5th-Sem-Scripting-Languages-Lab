@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Page Title</title>
+    
+</head>
+<body>
+
+    <form action="#" method="GET">
+
+        <label>
+            text
+            <input type="text" id="t"></input>
+        </label>
+        <label>
+            num1
+            <input type="text" id="n1"></input>
+            </label>
+        <label>
+            num2
+            <input type="text" id="n2"></input>
+        </label>
+        <button onclick="func()">submit</button>
+    </form>
+
+
+
+<script>
+
+
+
+
+
+function func(){
+var t = document.getElementById("t").value;
+var n1 = Number(document.getElementById("n1").value);
+var n2 = Number(document.getElementById("n2").value);
+
+
+var ob = {
+            text:t,
+            num1:n1,
+            num2:n2
+
+}
+
+
+    for(var i in ob){
+
+document.write(i + " : " +ob[i])
+document.write("<br>")
+}
+
+document.write("sum : " + Number(n1+n2))
+
+
+}
+ 
+
+
+
+
+</script>
+    
+</body>
+</html>
