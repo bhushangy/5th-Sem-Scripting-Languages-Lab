@@ -34,7 +34,8 @@ df['Embarked'] = df['Embarked'].map({
     "Q":"Quote"
 })
 print(df.head())
-df.drop(['Parch','PassengerId','Name','Ticket','Embarked'],axis=0,inplace=True) #inplace --> if inplace is true it modifies original dataset..if false it modifies a view of the dataset 
+df.drop(['Parch','PassengerId','Name','Ticket','Embarked'],axis=0,inplace=True) #inplace --> if inplace is true it 
+#modifies original dataset..if false it modifies a view of the dataset 
 #axis --> if axis=0 then column if 1 then row..here drop column...so use axis = 1
 # if axis = 0  then error saying can't find the specifies 'rows'
 
