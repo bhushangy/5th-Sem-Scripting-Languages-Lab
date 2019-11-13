@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>
+            Bakery Form
+        </title>
+    </head>
+        <body>
+          
+                No 1: Bread
+                <br>
+               Price/Qty: Rs 10
+                <br>
+               Qty: 
+                <input type="text" id='item1' onkeyup="val(1)" required title="0 if no qty is selected">
+                <p id='alert1'></p>
+                <br>
+                <br>
+               No 2: cake
+                <br>
+               Price/Qty: Rs 20
+                <br>
+               Qty: 
+                <input type="text" id='item2' onkeyup="val(2)" required title="0 if no qty is selected" >
+                <p id='alert2'></p>
+                <br>
+                <span>Total : Rs<p id='tot'></p></span>
+                <button onclick="calt()">Total</button>
+               
+            
+            
+                
+               
+
+                
+        
+
+        <script>
+                    function val(id) {
+                        var tot = 0;
+                        var item = "item"+id;
+                        var al = "alert"+id;
+                        document.getElementById(al).innerHTML = '';
+                        var qty = parseInt(document.getElementById(item).value);
+                        
+                        if(isNaN(qty)){
+                            document.getElementById(al).innerHTML = 'Only nos allowed'
+                        }
+                        else{
+                            document.getElementById(al).innerHTML = 'Only nos allowed'
+                        }
+                        
+                    }
+
+                    function calt(){
+                        var tot = 0;
+                        var qty1 = document.getElementById('item1').value;
+                        var qty2 = document.getElementById('item2').value;
+                        
+                        
+                        if(!isNaN(qty1)&&!isNaN(qty1)){
+
+                            tot = qty1 * 10 + qty2 * 20;
+                                               
+                            }
+                            else{
+                                tot = 0;
+                            }
+
+                            document.getElementById('tot').innerHTML = tot;
+
+                    }
+
+        </script>
+
+        </body>
+
+</html>
