@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            Load data dyn
+        </title>
+    </head>
+    <body>
+            <p onmouseover='func(0)' onmouseout="fun(0)" style="width: 30px;">Fiat</p>
+            <p id='cal0'></p>
+            <img id="img0" src="" style="width: 200px;height: 200px;">
+            <p onmouseover='func(1)' onmouseout="fun(1)" style="width: 30px;">Volkswagen</p>
+            <p id='cal1'></p>
+            <img id="img1" src="" style="width: 200px;height: 200px;">
+            
+
+
+
+
+    <script>
+
+                function func(id){
+
+                        var cal = 'cal'+id;
+                        var img = 'img'+id;
+
+                         var cars = [
+
+                                    {'name':'Punto','model':'2000','url':"https://upload.wikimedia.org/wikipedia/commons/e/e2/2006_Fiat_Grande_Punto_Sporting_T-J_1.4_Front.jpg"},
+                                    {'name':'Polo','model':'2000','url':"https://upload.wikimedia.org/wikipedia/commons/9/94/2018_Volkswagen_Polo_SE_TSi_1.0_Front.jpg"}
+                              ]
+
+                        var x = '';                       
+                        x+=cars[id]['name'];
+                        x+='<br>';
+                        x+=cars[id]['model'];
+                        
+                        document.getElementById(cal).innerHTML = x;
+                        document.getElementById(img).src = cars[id]['url']
+
+
+                 }
+
+                function fun(id){
+
+                        var cal = 'cal'+id;
+                        var img = 'img'+id;
+                        document.getElementById(cal).innerHTML = '';
+                        document.getElementById(img).src='';
+                        
+
+                }
+
+    </script>
+    </body>
+</html>

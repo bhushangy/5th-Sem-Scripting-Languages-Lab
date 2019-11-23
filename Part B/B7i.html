@@ -5,13 +5,13 @@
         </title>
     </head>
         <body>
-          
+            <form action="#" method="GET" onsubmit="calt()">
                 No 1: Bread
                 <br>
                Price/Qty: Rs 10
                 <br>
                Qty: 
-                <input type="text" id='item1' onkeyup="val(1)" required title="0 if no qty is selected">
+                <input type="text" id='item1' onkeyup="val(1)" required>
                 <p id='alert1'></p>
                 <br>
                 <br>
@@ -20,12 +20,13 @@
                Price/Qty: Rs 20
                 <br>
                Qty: 
-                <input type="text" id='item2' onkeyup="val(2)" required title="0 if no qty is selected" >
+                <input type="text" id='item2' onkeyup="val(2)" required>
                 <p id='alert2'></p>
                 <br>
-                <span>Total : Rs<p id='tot'></p></span>
-                <button onclick="calt()">Total</button>
-               
+                Total : Rs
+                <p id='tot'></p>
+                <input type="submit">
+            </form>
             
             
                 
@@ -36,19 +37,18 @@
 
         <script>
                     function val(id) {
-                        var tot = 0;
+                      
                         var item = "item"+id;
                         var al = "alert"+id;
                         document.getElementById(al).innerHTML = '';
-                        var qty = parseInt(document.getElementById(item).value);
+                        var qty = document.getElementById(item).value;
                         
                         if(isNaN(qty)){
-                            document.getElementById(al).innerHTML = 'Only nos allowed'
+                            document.getElementById(al).innerHTML = 'Only nos b/w 0-9 allowed'
                         }
                         else{
-                            document.getElementById(al).innerHTML = 'Only nos allowed'
+                            document.getElementById(al).innerHTML = ''
                         }
-                        
                     }
 
                     function calt(){

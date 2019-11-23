@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <titile>
+            Marks Card
+        </titile>
+    </head>
+    <body>
+        <form onsubmit="res()" action="#" method="GET">
+        MATH:
+        <input type="text" id="m1" onkeyup="val(1)" required>
+        <p id="r1"></p>
+        SCIENCE:
+        <input type="text" id="m2" onkeyup="val(2)" required>
+        <p id="r2"></p>
+        <input type="submit">
+        </form>
+
+
+
+
+
+
+        <script>
+            function val(id){
+
+
+                var mark = 'm'+id;
+                var valid = 'r'+id;
+                if(isNaN( document.getElementById(mark).value)){
+                        document.getElementById(valid).innerHTML = 'enter only nos between 0-100';
+                }
+                else{
+                    document.getElementById(valid).innerHTML = '';
+                }
+               
+
+            }
+
+            function res(){
+
+                
+                marks1 = document.getElementById('m1').value;
+                marks2 = document.getElementById('m2').value;
+
+                if(!isNaN(marks1)){
+
+                    if(marks1>70&&marks1<=90){
+                        document.getElementById('r1').innerHTML = 'Pass';
+
+                    }
+                    else{
+                        document.getElementById('r1').innerHTML = 'fail';
+                    }
+
+                }
+                
+                if(!isNaN(marks2)){
+
+                    if(marks2>70&&marks2<=90){
+                         document.getElementById('r2').innerHTML = 'Pass';
+
+                    }
+                    else{
+                        document.getElementById('r2').innerHTML = 'fail';
+                    }
+
+                }
+
+
+            }
+        </script>
+    </body>
+</html>
