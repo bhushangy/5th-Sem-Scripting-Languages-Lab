@@ -99,7 +99,7 @@ Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
     vs price plot) using matplotlib. Apply Linear Regression (Source to learn:scikit) on
     the loaded dataset to predict prices of new data. 
     
-### Part A ###
+###Part A###
 
     Python Introduction - Simple Problems in Python based on:
       1) Selection Constructs 2) Looping Constructs
