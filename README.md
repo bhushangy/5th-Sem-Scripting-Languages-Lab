@@ -131,4 +131,7 @@ Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
     scenarios
 
     ● Using Javascript - Loading JSON data dynamically on the client side. 
+    
+ ## Screenshots ##
 
+![alt tag](C:\Users\bhush\Desktop\html.jpeg)
