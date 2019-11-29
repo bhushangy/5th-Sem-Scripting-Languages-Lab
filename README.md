@@ -1,4 +1,4 @@
-## Scripting Lab Programs Submission
+# Scripting Lab Programs Submission #
 
 (under Department of ISE, Ramaiah Institute of Technology)
 
@@ -12,9 +12,9 @@ Section      : 5A
 Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
 
 
-#List of programs
+## List of programs ##
 
- Part B
+ ### Part B ###
 
 1)  Introduction to Python: Read a list of elements. Create a new list having all the elements minus the
     duplicates (Use functions). Use one-line comprehensions of create a new list of 
@@ -99,7 +99,7 @@ Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
     vs price plot) using matplotlib. Apply Linear Regression (Source to learn:scikit) on
     the loaded dataset to predict prices of new data. 
     
-  Part A
+### Part A ###
 
     Python Introduction - Simple Problems in Python based on:
       1) Selection Constructs 2) Looping Constructs
