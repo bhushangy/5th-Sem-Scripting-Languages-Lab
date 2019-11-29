@@ -133,5 +133,14 @@ Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
     ● Using Javascript - Loading JSON data dynamically on the client side. 
     
  ## Screenshots ##
-
+ 
+DATA SCIENCE
 ![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/datasci1.JPG)
+![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/datasci2.JPG)
+
+HTML
+![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/html.JPG)
+![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/html%26js.JPG)
+
+FLASK
+![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/flask.JPG)
