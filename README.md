@@ -12,7 +12,7 @@ Section      : 5A
 Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
 
 
-##List of programs
+#List of programs
 
  Part B
 
@@ -101,34 +101,34 @@ Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
     
   Part A
 
-  Python Introduction - Simple Problems in Python based on:
-  1) Selection Constructs 2) Looping Constructs
-  
-  ● Using Python - Simple Problems in Python based on:
-   1) Lists 2) Tuples 3) Dictionary
-   
-  ● Combining Python Basics and its Data Structures - Problems in Python based
-  on:
-  Selection, Looping with Lists, Tuples, Dictionaries
-  
-  ● Using Python - Problems in Python based on:
-  1) Functions 2) Class
-  
-  ● Python for Data Science - Data Manipulation on IRIS Data Set
-  
-  ● Python for Data Science -Data Visualization based on IRIS Data Set
-  
-  ● HTML Basics Introduction - Creating Static Pages with different HTML
-  Components
-  
-  ● HTML Basics Introduction - Creating Static Pages with hyperlinks and images
-  
-  ● Javascript Introduction - Basics of client side scripting
-  
-  ● Using Javascript - HTML along with Javascript on client side
-  
-  ● Combining HTML & Javascript - Programs with Client side event handling
-  scenarios
-  
-  ● Using Javascript - Loading JSON data dynamically on the client side. 
+    Python Introduction - Simple Problems in Python based on:
+      1) Selection Constructs 2) Looping Constructs
+
+    ● Using Python - Simple Problems in Python based on:
+      1) Lists 2) Tuples 3) Dictionary
+
+    ● Combining Python Basics and its Data Structures - Problems in Python based
+    on:
+       Selection, Looping with Lists, Tuples, Dictionaries
+
+    ● Using Python - Problems in Python based on:
+      1) Functions 2) Class
+
+    ● Python for Data Science - Data Manipulation on IRIS Data Set
+
+    ● Python for Data Science -Data Visualization based on IRIS Data Set
+
+    ● HTML Basics Introduction - Creating Static Pages with different HTML
+    Components
+
+    ● HTML Basics Introduction - Creating Static Pages with hyperlinks and images
+
+    ● Javascript Introduction - Basics of client side scripting
+
+    ● Using Javascript - HTML along with Javascript on client side
+
+    ● Combining HTML & Javascript - Programs with Client side event handling
+    scenarios
+
+    ● Using Javascript - Loading JSON data dynamically on the client side. 
 
