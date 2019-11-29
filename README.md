@@ -12,15 +12,15 @@ Section      : 5A
 Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
 
 
-#List of programs
+##List of programs
 
-## Part B
+ Part B
 
 1)  Introduction to Python: Read a list of elements. Create a new list having all the elements minus the
     duplicates (Use functions). Use one-line comprehensions of create a new list of 
     even numbers. Create another list reversing the elements.
-1)  Write a python program to count the frequency of words in a given file.
-1)  Read a list of numbers. Uses a recursive function to find the maximum of
+    Write a python program to count the frequency of words in a given file.
+    Read a list of numbers. Uses a recursive function to find the maximum of
     numbers.
 
 2) Introduction to Python Functions: Write a temperature converter python
@@ -99,25 +99,36 @@ Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
     vs price plot) using matplotlib. Apply Linear Regression (Source to learn:scikit) on
     the loaded dataset to predict prices of new data. 
     
-    ## Part A
+  Part A
 
   Python Introduction - Simple Problems in Python based on:
   1) Selection Constructs 2) Looping Constructs
+  
   ● Using Python - Simple Problems in Python based on:
    1) Lists 2) Tuples 3) Dictionary
+   
   ● Combining Python Basics and its Data Structures - Problems in Python based
   on:
   Selection, Looping with Lists, Tuples, Dictionaries
+  
   ● Using Python - Problems in Python based on:
   1) Functions 2) Class
+  
   ● Python for Data Science - Data Manipulation on IRIS Data Set
+  
   ● Python for Data Science -Data Visualization based on IRIS Data Set
+  
   ● HTML Basics Introduction - Creating Static Pages with different HTML
   Components
+  
   ● HTML Basics Introduction - Creating Static Pages with hyperlinks and images
+  
   ● Javascript Introduction - Basics of client side scripting
+  
   ● Using Javascript - HTML along with Javascript on client side
+  
   ● Combining HTML & Javascript - Programs with Client side event handling
   scenarios
+  
   ● Using Javascript - Loading JSON data dynamically on the client side. 
 
