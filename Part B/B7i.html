@@ -56,7 +56,16 @@
                         var qty1 = document.getElementById('item1').value;
                         var qty2 = document.getElementById('item2').value;
                         
-                        
+                        if(isNaN(qty1)){
+
+                            document.getElementById('alert1').innerHTML = 'Only nos b/w 0-9 allowed';
+                            return;
+                        }
+                         if(isNaN(qty2)){
+
+                            document.getElementById('alert2').innerHTML = 'Only nos b/w 0-9 allowed';
+                            return;
+                        }
                         if(!isNaN(qty1)&&!isNaN(qty1)){
 
                             tot = qty1 * 10 + qty2 * 20;
