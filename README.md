@@ -1,15 +1,15 @@
 ## Scripting Lab Programs Submission
 
-#(under Department of ISE, Ramaiah Institute of Technology)
+(under Department of ISE, Ramaiah Institute of Technology)
 
 
-#USN          : 1MS17IS036
+USN          : 1MS17IS036
 
-#Name         : BHUSHAN G Y
+Name         : BHUSHAN G Y
 
-#Section      : 5A
+Section      : 5A
 
-#Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
+Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
 
 
 ##List of programs
