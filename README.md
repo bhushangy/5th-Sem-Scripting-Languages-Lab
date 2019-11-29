@@ -12,15 +12,15 @@ Section      : 5A
 Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
 
 
-##List of programs
+#List of programs
 
 ## Part B
 
-1 a) Introduction to Python: Read a list of elements. Create a new list having all the elements minus the
+1)  Introduction to Python: Read a list of elements. Create a new list having all the elements minus the
     duplicates (Use functions). Use one-line comprehensions of create a new list of 
     even numbers. Create another list reversing the elements.
-1 b) Write a python program to count the frequency of words in a given file.
-1 c) Read a list of numbers. Uses a recursive function to find the maximum of
+1)  Write a python program to count the frequency of words in a given file.
+1)  Read a list of numbers. Uses a recursive function to find the maximum of
     numbers.
 
 2) Introduction to Python Functions: Write a temperature converter python
