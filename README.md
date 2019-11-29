@@ -134,4 +134,4 @@ Submitted to : Dr. Mydhili K Nair (Faculty Coordinator)
     
  ## Screenshots ##
 
-![alt tag](Part A/datasci1.JPG)
+![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/datasci1.JPG)
