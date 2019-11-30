@@ -143,4 +143,6 @@ HTML
 ![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/html%26js.JPG)
 
 FLASK
-![alt tag](https://github.com/bhushangy/SL-Lab/blob/master/Part%20A/flask.JPG)
+![alt tag](https://github.com/bhushangy/5th-Sem-Scripting-Languages-Lab/blob/master/Part%20A/flask2.JPGG)
+![alt tag](https://github.com/bhushangy/5th-Sem-Scripting-Languages-Lab/blob/master/Part%20A/flask3.JPG)
+
