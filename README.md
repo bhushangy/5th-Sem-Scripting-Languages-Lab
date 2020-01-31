@@ -1,6 +1,6 @@
 # Scripting Lab Programs Submission #
 
-(under Department of ISE, Ramaiah Institute of Technology)
+(under Department of ISE, Ramaiah Institute of Technology))
 
 
 USN          : 1MS17IS036
